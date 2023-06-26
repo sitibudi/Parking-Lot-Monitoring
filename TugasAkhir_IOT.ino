@@ -1,8 +1,8 @@
 //=====================================================LIBRARY=======================================================================
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLVMDmBQ8V"
-#define BLYNK_DEVICE_NAME "Parking Monitoring 1822009 1822015"
-#define BLYNK_AUTH_TOKEN "5oP02FZyEDHCkzRhA9HxG0Scu9IwIUSA"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_DEVICE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
@@ -49,11 +49,9 @@ int state = 0;
 int count_vibra = 0;
 
 char auth[] = BLYNK_AUTH_TOKEN;
-//char ssid[] = "Pelatihan_Elektro";
-//char pass[] = "elektro12345*";
 
-char ssid[] = "sitibudi";
-char pass[] = "sitibudi";
+char ssid[] = "";
+char pass[] = "";
 
 BlynkTimer timer;
 
